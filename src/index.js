@@ -5,12 +5,12 @@ addEventListener("fetch", (event) => {
 
 const routes = {
   "docker.auggietry.com": "https://registry-1.docker.io",
-  "docker.auggietry.com": "https://quay.io",
-  "docker.auggietry.com": "https://gcr.io",
-  "docker.auggietry.com": "https://k8s.gcr.io",
-  "docker.auggietry.com": "https://registry.k8s.io",
-  "docker.auggietry.com": "https://ghcr.io",
-  "docker.auggietry.com": "https://docker.cloudsmith.io",
+  "quay.auggietry.com": "https://quay.io",
+  "gcr.auggietry.com": "https://gcr.io",
+  "k8s-gcr.auggietry.com": "https://k8s.gcr.io",
+  "k8s.auggietry.com": "https://registry.k8s.io",
+  "ghcr.auggietry.com": "https://ghcr.io",
+  "cloudsmith.auggietry.com": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
